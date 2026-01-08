@@ -1,0 +1,16 @@
+Conflicto en archivo annie.txt
+
+El conflicto ocurrió porque dos personas mrealizaron modificaciones en el mismo archivo sin actualizar primero el repositorio.
+Persona A subió su cambio.
+Persona B intentó subir su cambio y se rechazó el push.
+Al hacer git pull, Se detectó un conflicto en annie.txt y el archivo mostró las marcas:
+<<<<<<<
+=======
+>>>>>>>
+
+Se resolvió el conflicto editando el archivo manualmente y dejando los cambios de Persona A
+Luego se ejecutaron los siguientes comandos:
+
+git add annie.txt
+git commit -m "Resuelvo conflicto"
+git push
